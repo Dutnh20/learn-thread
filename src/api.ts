@@ -2,7 +2,7 @@ import axios, { AxiosError, InternalAxiosRequestConfig } from "axios";
 
 // 1. Cấu hình Axios Client
 const apiClient = axios.create({
-  baseURL: "http://localhost:3000", // Đổi thành URL server của bạn (Backend hoặc Mock)
+  baseURL: "http://localhost:3000", 
   headers: {
     "Content-Type": "application/json",
   },
